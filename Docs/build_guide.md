@@ -20,6 +20,8 @@ Two versions of the extruder are available:
 
 I recommend using the unthreaded pin. However, if you are using that specific pin for a Nudge probe, you can substitute it with the M3 SHCS model.
 
+> **[CRITICAL]** **DO NOT** use the **stock spring** included in the **BMG extruder gear kit** for this toolchanger build. It is **far too strong** and will **not work properly** in this application. You must **replace it** with a **compression spring** of the **correct spring rate**. I used a **SUS304** compression spring with the following specifications: **wire diameter 0.7mm**, **outer diameter 6mm**, and **length 15mm**.
+
 *(Note: A version requiring a sleeve (OD 5mm, ID 3mm, Length 20mm) for the extruder lever is available but not strictly necessary to use.)*
 
 **[BOM]**
