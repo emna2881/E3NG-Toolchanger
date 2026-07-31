@@ -10,13 +10,13 @@
 
 ## Detailed Component Guide & BOM
 ![image](./Images/toolhead.png)
-The structure of the toolhead is highly intuitive and simple. A cam attached to the servo motor rotates to open the extruder gears. The tool and toolhead are securely held together by two pairs of neodymium magnets.
+The toolhead structure is simple and intuitive. A cam attached to the servo motor rotates to open the extruder gears. The tool and toolhead are securely held together by two pairs of neodymium magnets.
 
 ### 1. Extruder
 ![image](./Images/extruder.png)
 Two versions of the extruder are available:
-1. **Uses Pin (Recommended):** Uses the unthreaded 3x30mm pin included in the BMG gear kit.
-2. **Uses M3x25mm Bolt :** Uses an M3 SHCS 25mm instead of the pin.
+1. **Use the Pin (Recommended):** Use the unthreaded 3x30mm pin included in the BMG gear kit.
+2. **Use the M3x25mm Bolt:** Use an M3 SHCS 25mm instead of the pin.
 
 I recommend using the unthreaded pin. However, if you are using that specific pin for a Nudge probe, you can substitute it with the M3 SHCS model.
 
@@ -80,13 +80,13 @@ A reinforcement bar has been added to the center, along with protrusions inside 
 
 ### 5. Y Gantry
 ![image](./Images/ygantry1.png)
-A discrepancy was discovered in previous models: the distance between smooth rods on the original Y-block was 38.5mm, while the distance between linear bushings on the X-gantry was 38mm. 
+A discrepancy was discovered in previous models: the distance between smooth rods on the original Y-block was 38.5mm, while the distance between linear bushings on the X-gantry was 38mm.
 
-I fixed and unified to 38mm, and all bearing and belt alignments have been corrected. If your current setup works fine, you don't have to rebuild it. But if you are building a new one or replacing the Y-blocks, use this updated version.
+I corrected and standardized the spacing to 38mm, and realigned the bearings and belts. If your current setup works fine, you don't have to rebuild it. But if you are building a new one or replacing the Y-blocks, use this updated version.
 
 Additionally, a Beta-style Y-block has been included. If you are currently using the E3NG Beta Y-blocks for V1.2, you MUST upgrade to this new Beta style. The old beta blocks will collide with the fan duct, restricting your X-axis movement. 
 ![image](./Images/ygantry2.png)
-The M5 bolt fastening method for all Y-blocks has been updated from heat set inserts to Nylon Lock Nuts. Inserts sometimes caused twisting and part breakage during tightening; nylon nuts provide a secure, anti-vibration lock without over-tightening. Like the X Gantry, protrusions have been added to the linear bushing holes to clamp them securely.
+The fastening method for all Y-blocks has been changed from heat-set inserts to nylon lock nuts. Inserts sometimes caused twisting and part breakage during tightening; nylon nuts provide a secure, anti-vibration lock without over-tightening. Like the X Gantry, protrusions have been added to the linear bushing holes to clamp them securely.
 
 Assembly Notes:
 - V1.2 Style: Insert the linear bushings flush with the end of the printed part.
@@ -111,12 +111,12 @@ For Beta Style Y-blocks:
 [ATTENTION] The BOM below is per ONE tool. Multiply the quantities by the total number of tools you plan to build.
 
 ![image](./Images/hotend1.png)
-We use the TZ-V6 3.0 hotend. Before installing the hotend, cut the PTFE tube to exactly 18mm in length and insert it.
+We use the TZ-V6 3.0 hotend. Before installing the hotend, cut the PTFE tube to an exact length of 18mm and insert it.
 Remove the default V6 mount attached to the TZ-V6 3.0, and secure it using four M2.5 BHCS 6mm. *(Note: The M2.5 BHCS 8mm included in the hotend kit may touch the heatsink. It is usable, but we strongly recommend sourcing M2.5 BHCS 6mm instead.)*
 ![image](./Images/hotend2.jpg)
 
 For the ECAS04 fitting, remove the bottom rubber component and use only the top plastic section. Double-check the magnetic polarity before inserting any magnets. 
-At the front of the tool, three BHCS are used for docking/parking the tool. You can substitute these with SHCS, but DO NOT use FHCS. These three bolts should not be tightened flush; the bolt heads must protrude by at least 2mm. We advise applying CA glue to lock them permanently.
+At the front of the tool, three BHCS are used for docking/parking the tool. You can substitute these with SHCS, but DO NOT use FHCS. These three bolts should not be tightened all the way; the bolt heads must protrude by at least 2mm. We advise applying CA glue to lock them permanently.
 Please note that this section requires four 3mm height heat set inserts (not the standard 4mm), so be cautious during insertion.
 ![image](./Images/hotend3.png)
 
@@ -161,7 +161,7 @@ The brackets are designed for Ender-3 style V-slot extrusions. If you are using 
 
 ### 8. Electronics - Top
 ![image](./Images/top.png)
-Additional holes have been added to smoothly route the hotend wiring. Use a PG7 flexible cable gland, or use the provided printable alternative. Plug any unused holes by printing the hole_cover model.
+Additional holes have been added to smoothly route the hotend wiring. Use a PG7 flexible cable gland, or use the provided printable alternative instead. Plug any unused holes by printing the hole_cover model.
 
 **[BOM]**
 - PG7 Flexible Cable Gland (or printed alternative)
@@ -174,7 +174,7 @@ Options for a 3/3 split or an internal spool holder are currently under consider
 ---
 
 ## Experimental Features
-Models located in the /Experimental folder are highly experimental and may not work perfectly depending on your setup. Use them at your own discretion.
+Models located in the /Experimental folder are highly experimental and may not work perfectly depending on your setup. Use them at your own risk.
 
 ### Nozzle Wiper
 ![image](./Images/wiper.png)
