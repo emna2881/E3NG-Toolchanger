@@ -12,6 +12,10 @@ This project is based on E3NG by RH3D : https://github.com/RH3D/E3NG
 
 Also, I designed mount for Metal Bed of Nudge probe for tool offset calibration. Thanks to zruncho3d for developing Nudge : https://github.com/zruncho3d/nudge
 
+(+) The extruder design for this toolchanger was inspired by Irbis3D's MedusaHC (https://github.com/Irbis3D/MedusaHC). His DuEnder project and its accompanying hotend changer system, MedusaHC, are incredibly sophisticated and highly refined, and they were immensely helpful to me while designing the toolchanger system for the E3NG.
+
+I would like to express my deepest gratitude to Irbis3D for his continuous efforts in advancing the Ender-3. Additionally, I sincerely apologize for the delay in adding this credit.
+
 ## Key Features
 <img width="2480" height="1268" alt="Toolhead" src="https://github.com/user-attachments/assets/7d443923-78c3-4016-9463-5102a574304c" />
 
