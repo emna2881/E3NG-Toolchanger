@@ -17,7 +17,7 @@ Also, I designed mount for Metal Bed of Nudge probe for tool offset calibration.
 I would like to express my deepest gratitude to Irbis3D for his continuous efforts in advancing the Ender-3. Additionally, I sincerely apologize for the delay in adding this credit.
 
 ## Key Features
-<img width="2480" height="1268" alt="Toolhead" src="https://github.com/user-attachments/assets/7d443923-78c3-4016-9463-5102a574304c" />
+<img width="5098" height="2475" alt="asdf" src="https://github.com/user-attachments/assets/43d5cb2f-0e59-460a-8155-e4ef3b0e17bc" />
 
 * Hotend-Swapping Mechanism: Swaps hotends while utilizing a single extruder drive gear set and a single pair of part cooling fans, significantly reducing toolhead weight and cost.
 * Servo-Driven Cam Arm: Features a servo motor with a cam mechanism that disengages the extruder idler arm to clear the filament path for tool changes.
